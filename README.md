@@ -28,20 +28,20 @@ Home page:
 
 Companies page:
 
-[Home page](./src/app/assets/companies_pages.PNG)
+[Companies page](./src/app/assets/companies_pages.PNG)
 
 Favourite page:
 
-[Home page](./src/app/assets/jobs_fav_list.PNG)
+[Favourite page](./src/app/assets/jobs_fav_list.PNG)
 
 Company detail page:
 
-[Home page](./src/app/assets/company_detail_offer.PNG)
+[Company detail page](./src/app/assets/company_detail_offer.PNG)
 
 Job description page:
 
-[Home page](./src/app/assets/description.PNG)
+[Job description page](./src/app/assets/description.PNG)
 
 Home page responsive:
 
-[Home page](./src/app/assets/home_page_responsive.PNG)
+[Home page responsive](./src/app/assets/home_page_responsive.PNG)
