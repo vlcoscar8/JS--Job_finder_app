@@ -13,6 +13,7 @@
 
     .home-title-fav {
         @include home-title-fav;
+        position: absolute;
     }
 
     .fav-job-container {
