@@ -1,0 +1,24 @@
+/// Utilities
+@import "./utilities/_variables.scss";
+@import "./utilities/_mixins.scss";
+@import "./utilities/_default-page.scss";
+@import "./utilities/_typography.scss";
+@import "./utilities/_responsive.scss";
+
+/// general styles
+@import "./block/_header.scss";
+@import "./block/_footer.scss";
+
+/// Home page styles
+@import "./block/home_page/_filters.scss";
+@import "./block/home_page/_jobs-container.scss";
+
+/// Job detail page styles
+@import "./block/job-page.scss/_job-page.scss";
+
+/// Favourites page styles
+@import "./block/fav-page/_fav-page.scss";
+
+/// Companies list and detail page styles
+@import "./block/company-pages/_company-detail.scss";
+@import "./block/company-pages/_company-page.scss";

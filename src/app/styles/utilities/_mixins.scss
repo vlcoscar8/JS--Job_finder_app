@@ -1,0 +1,62 @@
+@mixin image_company($width, $height) {
+    width: $width;
+    height: $height;
+    border-radius: 50%;
+    align-self: center;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+@mixin tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $tag-color;
+
+    font-weight: 100;
+    font-size: 1.3rem;
+
+    text-transform: capitalize;
+    text-align: center;
+
+    width: 100%;
+    height: 3rem;
+
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+@mixin home-title {
+    font-size: 2rem;
+    font-weight: 100;
+    position: absolute;
+    top: -2.4rem;
+}
+
+@mixin home-icon {
+    font-size: 1rem;
+    margin-left: 0.6rem;
+}
+
+@mixin home-title-fav {
+    font-size: 2rem;
+    font-weight: 100;
+    top: -2.4rem;
+}
+
+@mixin btn-company-detail($font-size) {
+    font-size: $font-size;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: all 0.1s;
+
+    &:hover {
+        background-color: white;
+        color: $main-color;
+        font-weight: 600;
+    }
+}

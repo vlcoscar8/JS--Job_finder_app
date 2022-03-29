@@ -1,0 +1,99 @@
+.detail__container {
+    margin: 3rem 1rem;
+    padding: 2rem;
+
+    background-color: $hover-color;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    border: 2px solid $border-color;
+    border-radius: 2rem;
+
+    position: relative;
+
+    @include tablet {
+        width: 70vw;
+        margin-left: 11vw;
+    }
+
+    .home-title {
+        font-size: 2rem;
+        font-weight: 100;
+        position: absolute;
+        top: -2.4rem;
+    }
+
+    .home-icon {
+        font-size: 1rem;
+        margin-left: 0.6rem;
+    }
+
+    .job-detail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin: 1rem 0;
+
+        &__img {
+            @include image_company(7rem, 7rem);
+
+            @include tablet {
+                @include image_company(10rem, 10rem);
+            }
+        }
+
+        &__title {
+            font-size: 2.5rem;
+        }
+    }
+
+    .job-tags {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+
+        &__tag {
+            @include tag;
+            font-size: 1.5rem !important;
+
+            @include tablet {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .job__title {
+        margin: 1rem 0;
+    }
+
+    p {
+        font-size: 1.4rem;
+        margin: 0.8rem 0;
+        color: white !important;
+
+        @include tablet {
+            font-size: 1.7rem;
+        }
+    }
+
+    div {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin: 1rem 0;
+    }
+
+    ul {
+        margin: 1rem 0;
+        color: white !important;
+    }
+
+    .job-description__link {
+        font-size: 2rem;
+        font-weight: 600;
+
+        &:hover {
+            color: rgb(64, 137, 149);
+        }
+    }
+}

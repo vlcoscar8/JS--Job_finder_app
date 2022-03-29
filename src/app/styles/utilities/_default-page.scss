@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    font-family: "Hubballi";
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background: $background-page-color;
+    color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/// Repetitive styles
+
+.home-title {
+    @include home-title;
+}
+
+.home-icon {
+    @include home-icon;
+}
+
+.home-title-fav {
+    @include home-title-fav;
+}
+
+//// helpers
+.no-active {
+    display: none !important;
+}

@@ -1,0 +1,117 @@
+.company-detail {
+    margin: 1rem;
+    position: relative;
+
+    .company-home {
+        top: -3rem;
+    }
+
+    .company-company {
+        left: 7rem;
+    }
+
+    .job-detail__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 1rem;
+        padding: 1rem;
+        margin-top: 4rem;
+
+        text-align: center;
+
+        .job-offers__title {
+            font-size: 2rem;
+
+            @include tablet {
+                font-size: 2.2rem;
+            }
+        }
+
+        .company-detail__header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90vw;
+            border-bottom: 2px solid $border-color;
+            margin-bottom: 1rem;
+            padding-bottom: 2rem;
+            gap: 2rem;
+
+            .company-logo {
+                @include image_company(10rem, 10rem);
+            }
+        }
+
+        .company-jobs__container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+
+            width: 100vw;
+            margin-top: 2rem;
+
+            @include tablet {
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .job-tag {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                gap: 1rem;
+                padding: 2rem;
+
+                width: 80%;
+
+                border: 2px solid $border-color;
+                border-bottom-left-radius: 3rem;
+                border-top-right-radius: 3rem;
+
+                cursor: pointer;
+                transition: all 0.5s ease;
+
+                @include tablet {
+                    width: 40vw;
+                    gap: 2rem;
+                }
+
+                &:hover {
+                    transform: scale(1.02);
+                    background: $hover-color;
+                }
+
+                &__title {
+                    font-size: 2rem;
+                    font-weight: 400;
+
+                    @include tablet {
+                        font-size: 2.3rem;
+                    }
+                }
+
+                .company-tag__container {
+                    display: flex;
+                    gap: 1rem;
+                    width: 80%;
+
+                    .tag {
+                        @include tag;
+                        font-size: 1.6rem;
+                    }
+                }
+
+                .offers-btn {
+                    @include btn-company-detail(1.6rem);
+                }
+            }
+        }
+    }
+}

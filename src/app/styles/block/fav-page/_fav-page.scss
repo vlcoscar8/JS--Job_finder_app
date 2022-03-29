@@ -1,0 +1,120 @@
+.favourite__container {
+    margin: 3rem 1rem;
+    padding: 2rem;
+
+    border-radius: 2rem;
+
+    position: relative;
+
+    @include tablet {
+        width: 70vw;
+        margin-left: 13vw;
+    }
+
+    .fav-job-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .fav-job {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            background-color: $main-color;
+            padding: 1rem;
+
+            border: 2px solid $border-color;
+
+            border-bottom-left-radius: 3rem;
+            border-top-right-radius: 3rem;
+
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+                rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+            cursor: pointer;
+
+            transition: all 0.5s ease;
+
+            &:hover {
+                transform: scale(1.02);
+                background: $hover-color;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+
+                @include tablet {
+                    font-size: 2rem;
+                }
+            }
+
+            h3 {
+                font-size: 1.6rem;
+                color: $company-color;
+
+                @include tablet {
+                    font-size: 1.8rem;
+                }
+            }
+
+            .job-info {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                width: 100%;
+
+                .job-img {
+                    @include image_company(7rem, 7rem);
+
+                    @include tablet {
+                        @include image_company(9rem, 9rem);
+                    }
+                }
+
+                &__content {
+                    display: flex;
+                    flex-direction: column;
+                    width: 60%;
+                    gap: 1rem;
+
+                    .job-tags {
+                        display: flex;
+                        gap: 1rem;
+
+                        .tag {
+                            @include tag;
+
+                            @include tablet {
+                                font-size: 1.7rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .job-btn-container {
+                align-self: end;
+                justify-self: end;
+
+                .remove-btn {
+                    background: none;
+                    color: inherit;
+                    border: none;
+                    padding: 0;
+                    outline: inherit;
+                    font: inherit;
+                    cursor: pointer;
+                }
+
+                .remove-icon {
+                    font-size: 2rem;
+
+                    &:hover {
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+    }
+}
