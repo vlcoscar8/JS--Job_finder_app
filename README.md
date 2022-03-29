@@ -1,56 +1,47 @@
-# Pokemon APP
+# JOB FINDER APP
 
-![Logo Pokemon](./src/app/assets/logo.png)
+#### Resume
 
-#### Objetivo
+The web is a job finder app, where the user can find any job regarding some categories which you can filter, depending on you are living from.
 
-Vamos a construir nuestra primera aplicación web combinando todo lo aprendido hasta ahora en HTML/CSS y Javascript
+The web has a favourite list functionality, pagination and routes with "hashchange" method. All the web is developed with Javascript vanilla.
 
-El objetivo es enriquecer y mejorar la aplicación base, para entender el comportamiento de cada componente en nuestra app.
+All the data used in the project comes from an API. In this case the API used comes by Remotive.
 
 #### API
 
-Consumiremos la [API pública de Pokemon](https://pokeapi.co/) para listar y consultar el detalle de un Pokemon concreto
+API remotive link: [API Remotive](https://github.com/remotive-io/remote-jobs-api.)
 
-#### Stack tecnológico
- - Node + NPM
- - Webpack + Babel
- - HTML/CSS
- - Bootstrap
- - Sass
- - Javascript (ES6)
+#### Stack
 
-#### Reto
+-   Node + NPM
+-   Webpack + Babel
+-   HTML/CSS
+-   Sass
+-   Javascript (ES6)
 
-Una vez comprendido el funcionamiento de una API y como consumir recursos de una base de datos, podemos construir cualquier app atacando a cualquier API pública. El reto consiste en construir una webapp con otra API y la temática deseada.
+#### Images
 
-> Las APIs deben ser públicas y de fácil uso (evitar APIs que requieran token de acceso)
+Home page:
 
-#### Start up
+[Home page](./src/app/assets/home_page.PNG)
 
-Para arrancar el `webpack-dev-server`:
-```sh
-npm install
-npm start
-```
+Companies page:
 
-Para arrancar el `json-server` desde `/backend`:
-```sh
-cd backend
-npm install
-npm run server
-```
+[Home page](./src/app/assets/companies_pages.PNG)
 
-#### Git Flow
+Favourite page:
 
-Existe una rama `master` con el proyecto resuelto de una manera básica.
+[Home page](./src/app/assets/jobs_fav_list.PNG)
 
-La idea consiste en partir desde `develop` para crear una solución desde cero.
+Company detail page:
 
-```sh
-git checkout develop
-git branch feature/alberto-rivera-merida
-git checkout feature/alberto-rivera-merida
-```
+[Home page](./src/app/assets/company_detail_offer.PNG)
 
-Y a trabajar! 😎
+Job description page:
+
+[Home page](./src/app/assets/description.PNG)
+
+Home page responsive:
+
+[Home page](./src/app/assets/home_page_responsive.PNG)
