@@ -11,6 +11,10 @@
         margin-left: 13vw;
     }
 
+    .home-title-fav {
+        @include home-title-fav;
+    }
+
     .fav-job-container {
         display: flex;
         flex-direction: column;

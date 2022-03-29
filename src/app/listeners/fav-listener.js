@@ -57,7 +57,6 @@ const showFavouritesJobs = (data, jobsArray) => {
         window.location.hash = "#favouritesJobs";
 
         // If the user has selected jobs, then show in a favourite page, if not, a commentary as "Not selected jobs yet" is showed
-
         if (jobsArray == undefined || jobsArray.length === 0) {
             createFavDefaultPage();
         } else {
