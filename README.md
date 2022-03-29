@@ -2,7 +2,7 @@
 
 #### Resume
 
-The web is a job finder app, where the user can find any job regarding some categories which you can filter, depending on you are living from.
+The web is a job finder app, where the user can find any job regarding some categories which you can filter, depending on where you are living from.
 
 The web has a favourite list functionality, pagination and routes with "hashchange" method. All the web is developed with Javascript vanilla.
 
