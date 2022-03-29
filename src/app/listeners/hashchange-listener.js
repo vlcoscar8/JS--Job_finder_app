@@ -41,25 +41,21 @@ const setCompanyDetailPage = () => {
             .getElementById("pagination-container")
             .classList.remove("pagination");
     }
-    if (document.getElementById("detail-container")) {
-        document.getElementById("detail-container").remove();
-    }
-    if (document.getElementById("detail-container")) {
-        document.getElementById("detail-container").remove();
-    }
-    if (document.getElementById("detail-container")) {
-        document.getElementById("detail-container").remove();
-    }
+
     if (document.getElementById("favourite-container")) {
         document
             .getElementById("favourite-container")
             .classList.add("no-active");
     }
+
+    if (document.getElementById("detail-container")) {
+        document.getElementById("detail-container").classList.add("no-active");
+    }
 };
 
 const setCompanyPage = () => {
     if (document.getElementById("detail-container")) {
-        document.getElementById("detail-container").remove();
+        document.getElementById("detail-container").classList.add("no-active");
     }
 
     if (document.getElementById("favourite-container")) {
