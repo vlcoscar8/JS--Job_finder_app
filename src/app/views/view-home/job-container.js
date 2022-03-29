@@ -42,7 +42,10 @@ const printHTMLfromData = (currentJobs) => {
                                 job.company_logo
                             }" alt="" class="job-img"/>
                             <div class="job-description">
-                                <h3 class="job-title">${job.title}</h3>
+                            <div class="job-title-container">
+                            <h3 class="job-title">${job.title}</h3>
+                            </div>
+                                
                                 <h3 class="company-title">${
                                     job.company_name
                                 }</h3>
