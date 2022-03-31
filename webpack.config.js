@@ -16,7 +16,7 @@ module.exports = {
     },
     devServer: {
         port: 4000,
-        watchFiles: ["index.html"],
+        watchFiles: ["src/index.html"],
     },
     module: {
         rules: [
@@ -32,7 +32,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "./index.html",
+            template: "./src/index.html",
             minify: {
                 collapseWhitespace: true,
                 removeComments: true,
