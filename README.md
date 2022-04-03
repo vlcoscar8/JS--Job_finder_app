@@ -1,6 +1,6 @@
 # JOB FINDER APP
 
-#### Resume
+# Resume
 
 The web is a job finder app, where the user can find any job regarding some categories which you can filter, depending on where you are living from.
 
@@ -12,7 +12,7 @@ All the data used in the project comes from an API. In this case the API used co
 
 API remotive link: [API Remotive](https://github.com/remotive-io/remote-jobs-api.)
 
-#### Stack
+# Stack
 
 -   Node + NPM
 -   Webpack + Babel
@@ -20,28 +20,8 @@ API remotive link: [API Remotive](https://github.com/remotive-io/remote-jobs-api
 -   Sass
 -   Javascript (ES6)
 
-#### Images
+# Link
 
-Home page:
+https://jobfinderapp.netlify.app
 
-[Home page](./src/app/assets/home_page.PNG)
 
-Companies page:
-
-[Companies page](./src/app/assets/companies_pages.PNG)
-
-Favourite page:
-
-[Favourite page](./src/app/assets/jobs_fav_list.PNG)
-
-Company detail page:
-
-[Company detail page](./src/app/assets/company_detail_offer.PNG)
-
-Job description page:
-
-[Job description page](./src/app/assets/description.PNG)
-
-Home page responsive:
-
-[Home page responsive](./src/app/assets/home_page_responsive.PNG)
