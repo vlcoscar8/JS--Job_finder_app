@@ -2,6 +2,8 @@
 
 # Resume
 
+Check the web here: https://jobfinderapp.netlify.app
+
 The web is a job finder app, where the user can find any job regarding some categories which you can filter, depending on where you are living from.
 
 The web has a favourite list functionality, pagination and routes with "hashchange" method. All the web is developed with Javascript vanilla.
@@ -20,8 +22,7 @@ API remotive link: [API Remotive](https://github.com/remotive-io/remote-jobs-api
 -   Sass
 -   Javascript (ES6)
 
-# Link
 
-https://jobfinderapp.netlify.app
+
 
 
